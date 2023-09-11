@@ -18,22 +18,26 @@
 
     <header>
         <nav>
+            <div class="logo-atlas">
+                <a href="#">ATLAS</a>
+            </div>
             <a href="../index.html" onclick="seleccionar(this)">Blog</a>
-            <a href="#intro"        onclick="seleccionar(this)" class="selected">Inicio</a>
+            <a href="#intro"        onclick="seleccionar(this)" class="selected"><i class="fa-solid fa-house"></i> Inicio</a>
 
             <span>
                 <i class="icono-menu"><img src="../img/logo verde.png" alt="logo"></i>
             </span>
 
-            <a href="#servicio"     onclick="seleccionar(this)">Servicio</a>
-            <a href="#reservas"     onclick="seleccionar(this)">Reservas</a>
-            <a href="#contactanos"  onclick="seleccionar(this)">Contactanos</a>
-            <a href="#registro"     onclick="seleccionar(this)">Registro</a>
+            <a href="#servicio"     onclick="seleccionar(this)"><i class="fa-solid fa-bell-concierge"></i> Servicio</a>
+            <a href="#reservas"     onclick="seleccionar(this)"><i class="fa-solid fa-bed"></i> Reservas</a>
+            <a href="#contactanos"  onclick="seleccionar(this)"><i class="fa-solid fa-headset"></i> Contactanos</a>
+            <a href="#registro"     onclick="seleccionar(this)"><i class="fa-solid fa-user"></i> Registro</a>
         </nav>
     </header>
 
     <!---SECCION INTRODUCCION-->
     <section id="intro" class="bloque">
+
         <div class="contenido">
 
             <div>
@@ -47,25 +51,22 @@
                 <form action="#servicios">
                     
                     <div class="user-box">
-                        <input type="text" name="" required="">
+
                         <label>Correo</label>
+                        <input type="text" name="" required="">
+                        
                     </div>
 
                     <div class="user-box">
-                        <input type="password" name="" required="">
+                        
                         <label>Contraseña</label>
+                        <input type="password" name="" required="">
+                        
                     </div>
 
-                    <a href="#">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        Iniciar
-                    </a>
+                    <input type="submit" value="Enviar">
                 </form>
             </div>
-            
         </div>
     </section>
 

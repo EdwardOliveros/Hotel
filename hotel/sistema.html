@@ -16,23 +16,24 @@
 <!--MENU-->
 <body>
 
+    <!--HEADER-->
     <header>
-        <nav>
-            <div class="logo-atlas">
-                <a href="#">ATLAS</a>
-            </div>
-            <a href="../index.html" onclick="seleccionar(this)">Blog</a>
-            <a href="#intro"        onclick="seleccionar(this)" class="selected"><i class="fa-solid fa-house"></i> Inicio</a>
+            <nav>
+                <div class="logo-atlas">
+                    <a href="#">ATLAS</a>
+                </div>
+                <a href="../index.html" onclick="seleccionar(this)">Blog</a>
+                <a href="#intro"        onclick="seleccionar(this)" class="selected"><i class="fa-solid fa-house"></i> Inicio</a>
 
-            <span>
-                <i class="icono-menu"><img src="../img/logo verde.png" alt="logo"></i>
-            </span>
+                <span>
+                    <i class="icono-menu"><img src="../img/logo verde.png" alt="logo"></i>
+                </span>
 
-            <a href="#servicio"     onclick="seleccionar(this)"><i class="fa-solid fa-bell-concierge"></i> Servicio</a>
-            <a href="#reservas"     onclick="seleccionar(this)"><i class="fa-solid fa-bed"></i> Reservas</a>
-            <a href="#contactanos"  onclick="seleccionar(this)"><i class="fa-solid fa-headset"></i> Contactanos</a>
-            <a href="#registro"     onclick="seleccionar(this)"><i class="fa-solid fa-user"></i> Registro</a>
-        </nav>
+                <a href="#servicio"     onclick="seleccionar(this)"><i class="fa-solid fa-bell-concierge"></i> Servicio</a>
+                <a href="#reservas"     onclick="seleccionar(this)"><i class="fa-solid fa-bed"></i> Reservas</a>
+                <a href="#contactanos"  onclick="seleccionar(this)"><i class="fa-solid fa-headset"></i> Contactanos</a>
+                <a href="#registro"     onclick="seleccionar(this)"><i class="fa-solid fa-user"></i> Registro</a>
+            </nav>
     </header>
 
     <!---SECCION INTRODUCCION-->
@@ -45,8 +46,7 @@
             </div>
 
             <div class="right-intro">
-                <input type="button" value="Log In" id="log-in">
-                
+                <input type="button" value="Log In" id="log-in"> 
             </div>
 
             <!--
@@ -87,78 +87,105 @@
 
     
     <!--SECCION SERVICIO-->
+
+    
     <section id="servicio" class="bloque">
 
-        <div>
+        <div class="titulo">
             <h2>Nuestros Servicios</h2>
         </div>
 
-        <div class="contenido">
+        <div class="banners">
+            <div class="contenido">
 
-            <div class="item servicio1">
-                <div class="overlay"></div>
-                <a href="./paginas/servicios/piscina/piscina.html"><h2>Piscinas</h2></a>
-            </div>
-
-            <div class="item servicio2">
-                <div class="overlay"></div>
-                <a href="./paginas/servicios/restaurante/restaurante.html"><h2>Restaurante</h2></a>
-            </div>
-
-            <div class="item servicio3">
-                <div class="overlay"></div>
-                <a href="./paginas/servicios/bar/bar.html"><h2>Bar</h2></a>
-            </div>
-
-            <div class="item servicio4">
-                <div class="overlay"></div>
-                <a href="./paginas/servicios/spa/spa.html"><h2>Spa</h2></a>
-            </div>
-
-            <div class="item servicio5">
-                <div class="overlay"></div>
-                <a href="./paginas/servicios/room-service/room-service.hmtl"><h2>Room Service</h2></a>
+                <div class="item servicio1">
+                    <img src="img/bar.jpg" alt="imagen bar">
+                    <div class="text">
+                        <a href="">Bar</a>
+                    </div>
+                    </div>
+                </div>
+    
+                <div class="item servicio2">
+                    <img src="img/pool.jpg" alt="imagen piscina">
+                    <div class="text">
+                        <a href="">Piscina</a>
+                    </div>
+                </div>
+    
+                <div class="item servicio3">
+                    <img src="img/restaurant.jpg" alt="imagen restaurante">
+                    <div class="text">
+                        <a href="">Restaurante</a>
+                    </div>
+                </div>
+    
+                <div class="item servicio4">
+                    <img src="img/service.jpg" alt="imagen service">
+                    <div class="text">
+                        <a href="">Room Service</a>
+                    </div>
+                </div>
+    
+                <div class="item servicio5">
+                    <img src="img/spa.jpg" alt="imagen spa">
+                    <div class="text">
+                        <a href="">Spa</a>
+                    </div>
+                </div>
+    
             </div>
         </div>
+        
     </section>
 
     <!--SECCION RESERVA-->
 
-    <section id="reservas" class="bloque">
-        <div class="contenido">
-            <div>
-                <h2>¿Deseas Reservar?</h2>
-            </div>
-
+        <section id="reservas" class="bloque">
             <div class="contenido">
-                <p>
-                    Las presentes condiciones generales están sujetas a lo
-                    dispuesto en la NTSH Sectorial Colombiana 003 (2003-02-24)
-                    <br>
-                    Esta norma tiene como objeto proprocionar los requisitos para
-                    ofrecer productos y servicios dando respuesta al cliente,
-                    realizar check in y check out de huespedes y Reservar
-                    habitaciones de acuerdo con procedimientod definidos en los
-                    establecimientos de alojamiento y hospedaje.
-                </p>
 
-                <div class="item clausulas">
-                    <div class="overlay"></div>
-                    <a href="./paginas/reserva/clausulas.html"><h2>clausulas</h2></a>
+                <div class="titulo">
+                    <h2>¿Deseas Reservar?</h2>
                 </div>
+                    <p>
+                        Las presentes condiciones generales están sujetas a lo
+                        dispuesto en la NTSH Sectorial Colombiana 003 (2003-02-24)
+                        <br>
+                        Esta norma tiene como objeto proprocionar los requisitos para
+                        ofrecer productos y servicios dando respuesta al cliente,
+                        realizar check in y check out de huespedes y Reservar
+                        habitaciones de acuerdo con procedimientod definidos en los
+                        establecimientos de alojamiento y hospedaje.
+                    </p>
 
-                <div class="item condiciones">
-                    <div class="overlay"></div>
-                    <a href="./paginas/reserva/clausulas.html"><h2>Condiciones de Pago</h2></a>
-                </div>
+                    <div class="contenedores">
+            
+                            <div class="item clausulas">
+                                <img src="img/clausulas.jpg" alt="imagen clausulas">
+                                <div class="text">
+                                    <a href="">Clausulas</a>
+                                </div>
+                            </div>
 
-                <div class="item reservas">
-                    <div class="overlay"></div>
-                    <a href="./paginas/reserva/clausulas.html"><h2>Reservas</h2></a>
-                </div>
+                            <div class="item condiciones">
+                                <img src="img/condiciones.jpg" alt="imagen condicones">
+                                <div class="text">
+                                    <a href="">Condiciones</a>
+                                </div>
+                                
+                            </div>
+
+                            <div class="item reservas">
+                                <img src="img/reservas.jpg" alt="imagen reservas">
+                                <div class="text">
+                                    <a href="">Reservas</a>
+                                </div>
+                            </div>
+
+                    </div>
+
             </div>
-        </div>
-    </section>
+        </section>
 
     <!--SECCION CONTACTENOS-->
     <section id="contactanos" class="bloque">
